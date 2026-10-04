@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: source_shm
+    description: "Raw data from Source schema."
+    database: '{{ target.catalog }}'
+    # database: prod
+    schema: source_shm
+    tables:
+      - name: fact_sales
+      - name: fact_returns
+      - name: dim_customer
+      - name: dim_product
+      - name: dim_date
+      - name: dim_store
+      - name: items
