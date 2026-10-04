@@ -11,3 +11,7 @@ wheels/
 
 # Secrets
 jv_dbt_demo/profiles.yml
+
+# Others
+logs/
+target/
